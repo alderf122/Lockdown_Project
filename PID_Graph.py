@@ -17,7 +17,7 @@ plt.plot(data['Tiempo (s)'], data['Salida PID'], label='Salida PID', color='red'
 # Añadir etiquetas y título
 plt.title('Comportamiento del PID')
 plt.xlabel('Tiempo (s)')
-plt.ylabel('Grados de inclinacio')
+plt.ylabel('Grados de inclinacion')
 plt.ylim(99.00, 100.90)
 plt.legend()
 
